@@ -3,6 +3,16 @@ body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* this one */
+header {
+    width: 100%;
+    background-color: #a5a58b;
+}
+
+.logo {
+    max-width: 105px;
+    margin: 15px;
+}
 
 #toggleAssist, 
 ul.nav-links {
@@ -11,4 +21,67 @@ ul.nav-links {
 
 #toggleAssist:checked + ul.nav-links {
     display: block;
+}
+
+
+.toggle-button {
+    width: 40px;
+    float: right;
+    margin: 15px;
+}
+
+ul.nav-links {
+    list-style: none;
+    margin: 5px;
+    padding-left: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-links li {
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(0,0,0);
+}
+
+.nav-links a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (min-width: 450px) {
+    main {
+        width: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .toggle-button {
+        display: none;
+    }
+
+    ul.nav-links {
+        display: block;
+        float: right;
+    }
+
+    .nav-links li {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: none;
+    }
+
+    main {
+        width: 650px;
+    }
 }
