@@ -1,0 +1,97 @@
+.red-bg {
+    background-color: gray;
+  
+}
+
+.green-bg {
+    background-color: gray;
+
+}
+
+.blue-bg {
+    background-color: gray;
+}
+
+.yellow-bg {
+    background-color: gray;
+
+}
+
+.purple-bg {
+    background-color: gray;
+
+}
+
+
+.center {
+    color: rgb(255, 196, 0);
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+.civ-1 {
+  position: relative;
+  text-align: center;
+}
+
+.ct1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.civ-2 {
+  position: relative;
+  text-align: center;
+
+}
+
+.ct2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.more-info {
+    color: white;
+    text-align: center;
+}
+
+h1.world {
+  text-transform: uppercase;
+}
+
+p.historic {
+  text-align: center;
+}
+
+
+
+.civ-3 {
+  position: relative;
+  text-align: center;
+
+}
+
+.ct3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.civ-4 {
+  position: relative;
+  text-align: center;
+
+}
+
+.ct4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

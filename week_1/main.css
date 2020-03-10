@@ -1,5 +1,5 @@
 @import url("layout.css");
-@import url("colors.css");
+@import url("content.css");
 
 /* first responsive site  */
 body {
@@ -30,7 +30,7 @@ ul.nav-links {
 .toggle-button {
     width: 40px;
     float: right;
-    margin: 15px;
+    padding: 5px;
 }
 
 ul.nav-links {
@@ -63,10 +63,9 @@ img {
     max-width: 100%;
 }
 
+
 @media (min-width: 450px) {
-    main {
-        width: 400px;
-    }
+
 }
 
 @media (min-width: 550px) {
@@ -86,13 +85,11 @@ img {
     border-bottom: none;
     }
 
-    main {
-        width: 650px;
-    }
 } /* END OF MID-SCRREN MEDIA QUERY */
 
 @media (min-width: 960px) {
     header {
-    width: 960px;
+    width: auto;
     margin: auto;
-} /* END OF LRG-SCRREN MEDIA QUERY */
+} 
+/* END OF LRG-SCRREN MEDIA QUERY */
