@@ -56,12 +56,17 @@
 }
 
 .more-info {
+  text-align: center;
+}
+
+.more-info p {
     color: white;
     text-align: center;
 }
 
 h1.world {
   text-transform: uppercase;
+  color: white;
 }
 
 p.historic {

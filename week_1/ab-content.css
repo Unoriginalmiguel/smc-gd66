@@ -1,0 +1,29 @@
+.about-pic{
+    width: 45%;
+
+}
+
+.justCont {
+    align-items: flex-start;
+}
+
+.Introd h1 {
+    color: #ffc400;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+.Introd {
+    margin: 0%;
+}
+
+.Introd p {
+    color: white;
+    margin: 0%;
+    padding-bottom: 5%;
+}
+
+.womenScrub {
+padding-bottom: 4%;
+}
