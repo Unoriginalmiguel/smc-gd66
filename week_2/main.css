@@ -1,0 +1,28 @@
+@import url("content.css");
+@import url("navbar.css");
+
+.css-selector {
+font-family: 'Font Name', serif;
+font-family: 'Martel', serif;
+}
+
+/* BACKGROUND COLORS */
+.red-bg {
+    background-color: ;
+}
+
+.green-bg {
+    background-color: ;
+}
+
+.blue-bg {
+    background-color: ;
+}
+
+.yellow-bg {
+    background-color: rgb(222, 224, 85);
+}
+
+.purple-bg {
+    background-color: rgb(154, 96, 212);
+}

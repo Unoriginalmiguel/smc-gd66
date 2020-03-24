@@ -1,0 +1,110 @@
+.css-selector {
+font-family: 'Font Name', serif;
+font-family: 'Martel', serif;
+font-family: 'Cinzel', serif;
+
+}
+
+.logo{
+  width: 50%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(206, 219, 236);
+  text-align: center;
+  font-family:'Martel', serif;
+  
+}
+
+.Navlist {
+  padding: 0%;
+}
+
+.topnav li {
+  display:inline;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display:inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 6px 9px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 8px 8px 8px rgb(83, 83, 83);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.Active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+@media (min-width: 450px) {
+
+}
+
+@media (min-width: 750px) {
+.topLG {
+  display: none;
+  visibility: hidden;
+}
+
+a.logo-container {
+  padding: -10px;
+}
+
+} /* END OF MID-SCRREN MEDIA QUERY */
+
+@media (max-width: 750px) {
+
+.btmLG {
+    display: none;
+    visibility: hidden;
+}
+
+.logo {
+width: 100px;
+}
+
+.topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+.tn-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  box-shadow: 8px 8px 8px rgb(83, 83, 83);
+  color: black;
+}
+
+}
+
+/* END OF LRG-SCRREN MEDIA QUERY */
+
+
+
