@@ -58,10 +58,11 @@ font-family: 'Cinzel', serif;
 
 
 @media (min-width: 450px) {
-
 }
 
 @media (min-width: 750px) {
+
+
 .topLG {
   display: none;
   visibility: hidden;
@@ -69,6 +70,14 @@ font-family: 'Cinzel', serif;
 
 a.logo-container {
   padding: -10px;
+}
+
+.topnav a {
+
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 6px;
 }
 
 } /* END OF MID-SCRREN MEDIA QUERY */

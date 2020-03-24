@@ -13,13 +13,23 @@ font-family: 'Cinzel', serif;
     overflow-x: hidden; 
 }
 
+.f-cloud0 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.f-cloud1 {
+  position: relative;
+  text-align: center;
+}
 
 .ct1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 400%;
+  font-size: 300%;
 }
 
 .center {
@@ -27,7 +37,45 @@ font-family: 'Cinzel', serif;
     font-family: 'Cinzel', serif;
     text-transform: uppercase;
     font-weight: 900;
-    text-shadow: 8px 8px 6px rgb(34, 34, 34);
+    text-shadow: 8px 3px 6px rgb(34, 34, 34);
+}
+
+.f-cloud2 {
+  position: relative;
+  text-align: center;
+}
+
+.ct2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150%;
+
+}
+
+.f-cloud3 {
+  position: relative;
+  text-align: center;
+
+}
+
+.ct3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150%;
+
+}
+
+.ct4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150%;
+
 }
 
 
@@ -41,6 +89,7 @@ font-family: 'Cinzel', serif;
 
 .w-33 {
     width: 33.333%;
+    margin-bottom: 4px;
 }
 
 .w-50 {
@@ -57,9 +106,14 @@ font-family: 'Cinzel', serif;
 
 /* THESE ARE THE SECTIONS FOR THE DEFAULT (MOBILE) VIEW */
 
-@media(min-width: 550px){
+@media(max-width: 550px){
 
+.w-lg-100 {
+    width: 100%;
 }
+
     .maxLogo {
     display: none;
     }
+}
+
