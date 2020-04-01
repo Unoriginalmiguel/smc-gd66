@@ -1,0 +1,119 @@
+@import url("colors.css");
+
+.css-selector {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Cinzel', serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  color: rgb(29, 24, 14);
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.gd-1 img{
+    padding-top: 10%;
+    width: 100%;
+}
+
+.gd-2 {
+padding-top: 5px;
+}
+
+.gd-2 h1 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.gd-2 p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(255, 115, 0);
+    font-style: italic;
+    font-size: large;
+}
+
+.grid-container {
+    display: grid;
+    /* grid-template-rows: [h-line-1 firstH] 50% [h-line-2] 50% [h-line-3]; */
+
+    grid-template-rows: [h-line-1 firstH] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4] 1fr [h-line-5];
+    grid-template-columns: [v-line-1] 1fr [v-line-2] 1fr [v-line-3];
+
+    grid-gap: 15px;
+
+    height: 100vh;
+}
+
+.gd-3 img{
+    padding-top: 10%;
+    width: 100%;
+}
+
+
+#BCKGRNDexplosion {
+    z-index: 1;
+    position: relative;
+}
+
+#ExplosionsBcool {
+    padding-left: 10%;
+    margin-top: 5%;
+    width: 35%;
+    z-index: 2;
+}
+
+
+
+@media(min-width: 560px){
+    .grid-container {
+        display: grid;
+        /* grid-template-rows: [h-line-1 firstH] 50% [h-line-2] 50% [h-line-3]; */
+        grid-template-rows: [h-line-1 firstH] 1fr [h-line-2] 1fr [h-line-3] 1fr [h-line-4];
+        grid-template-columns: [v-line-1] 100px [v-line-2] auto [v-line-3] 100px [v-line-4];
+
+        grid-gap: 15px;
+
+        height: 400px;
+
+        width: 540px;
+        margin: auto;
+    }
+
+ 
+}
+
+@media(min-width: 768px){
+    .grid-container {
+        width: 760px;
+    }
+}
+
+@media(min-width: 1200px){
+    .grid-container {
+        width: 1120px;
+    }
+}
