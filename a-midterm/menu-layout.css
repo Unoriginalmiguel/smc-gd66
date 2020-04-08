@@ -1,0 +1,9 @@
+
+.food-image {
+	grid-area: 1 / 1 / 5 / 6;
+}
+
+.food-items {
+	grid-area: 4 / 2 / 7 / 5;
+}
+
