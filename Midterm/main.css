@@ -1,0 +1,13 @@
+@import url('navbar.css');
+@import url('colors.css');
+@import url('index-layout.css');
+@import url('menu-layout.css');
+@import url('about-layout.css');
+@import url('contact-layout.css');
+
+
+.css-selector {
+    font-family: 'Gotu', sans-serif;
+    font-family: 'Martel', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}

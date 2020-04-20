@@ -1,0 +1,189 @@
+.css-selector {
+    font-family: 'Gotu', sans-serif;
+    font-family: 'Martel', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#toggleAssist {
+    display: none;
+}
+
+.logo-container{
+  top: 0;
+}
+
+ul.flex{
+  list-style-type: none;
+  top: 0;
+  padding: 0;
+  overflow: auto;
+    margin-top: 0px;
+    background-color: white;
+    margin-bottom: 0px;
+  
+}
+
+li a {
+  color: #44c7f4;
+  font-family: 'Martel', serif;
+}
+
+li a:hover {
+  color: black;
+}
+
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 10px;   
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul.food-nav {
+  padding-left: 0px;
+    margin-top: 0px;
+}
+
+.food-space {
+  margin-top: 10px;
+}
+
+@media(max-width: 499px) {
+
+.main-nav{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  bottom: 0;
+  left: 0px;
+
+}
+
+.box-nav {
+    position: fixed;
+  width: 100%;
+  background-color: white;
+  bottom: 0;
+  left: 0px;
+  height: 72px;
+  box-shadow: 0px 4px 16px gray;
+}
+
+
+.logo {
+  width: 20%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 14px;
+  padding-left: 9px;
+}
+
+.toggle-button {
+
+width: 40px;
+float: right;
+display: block;
+position: fixed;
+right: 0;
+padding-right: 20px;
+bottom: 0;
+margin-bottom: 18px;
+
+}
+
+#toggleAssist,
+ul.nav-links {
+    display: none;
+}
+
+#toggleAssist:checked + ul.nav-links {
+    display: block;
+}
+
+ul.flex.main-nav{
+  list-style-type: none;
+  padding: 0;
+  overflow: auto;
+    position: fixed;
+    padding-top: 42%;
+    padding-bottom: 30%;
+    right: 0px;
+    top: 0px;
+    margin-top: 0px;    
+
+}
+
+nav ul.flex {
+  background-color: white;
+height: 681px;
+}
+
+nav ul li {
+    padding: 20px;  
+}
+nav ul li.mobile-length {
+    margin-top: 180px;
+}
+
+
+}
+
+
+@media(min-width: 500px) {
+
+.main-nav{
+    text-align: center;
+}
+
+
+.logo {
+  width: 20%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.toggle-button {
+   display: none;
+}
+
+}
+
+
+@media(min-width: 960px){
+
+  ul.flex {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+}
+
+@media(min-height: 736px) and (max-width: 414px){
+  nav ul.flex {
+    background-color: white;
+    height: 729px;
+  }
+}
+
+@media(min-height: 812px) and (max-width: 375px){
+  nav ul.flex {
+    background-color: white;
+    height: 809px;
+  }
+}

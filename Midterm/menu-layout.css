@@ -1,0 +1,54 @@
+.css-selector {
+    font-family: 'Gotu', sans-serif;
+    font-family: 'Martel', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.food-images {
+	grid-area: 1 / 1 / 2 / 5;
+}
+
+.food-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.menu-items {
+	grid-area: 2 / 2 / 5 / 4;
+	height: 100px;
+}
+
+.food-header1 {
+	font-family: 'Gotu', sans-serif;
+	color: #594236;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.food-header2 {
+    font-family: 'Martel', serif;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 0px;
+    margin-top: 0px;
+	text-transform: uppercase;
+	color: #8B786D;
+}
+
+.food-item {
+padding-left: 6%;
+
+}
+
+@media(min-width: 500px){
+.food-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em 1em;
+}
+}
