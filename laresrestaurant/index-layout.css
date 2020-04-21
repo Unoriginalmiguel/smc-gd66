@@ -10,7 +10,7 @@
 	grid-gap: 1em 1em;
 }
 
-.home-desc {
+.home-desc h4 {
 	font-family: 'Gotu', sans-serif;
 	color: white;
 	font-weight: lighter;
@@ -80,7 +80,7 @@ height: 150%;
 margin-top: 3%;
 }
 
-@media(min-width: 550px){
+@media(min-width: 500px){
 
 .container {
 	display: grid;
@@ -94,7 +94,7 @@ margin-top: 3%;
 height: 100px;
 }
 
-.home-desc {
+.home-desc h4 {
 	font-family: 'Gotu', sans-serif;
 	color: white;
 	font-weight: lighter;
@@ -102,11 +102,12 @@ height: 100px;
 	text-transform: uppercase;
 	font-size: 110%;
 	position: relative;
-	top: 60%;
+	top: 60px;
 	text-shadow: 2px 2px 4px #000000;
 }
 
 .food-gif-home {
+	margin-top: 10px;
 	padding-top: 2%;
 	z-index: -1;
 	position: absolute;
@@ -177,6 +178,13 @@ bottom: 0;
 margin-top: 30px;
 }
 
+div iframe.Gmap {
+	margin-left: auto;
+	margin-right: auto;
+	height: 360%;
+}
+
+
 .map-content {
 	grid-area: 3 / 1 / 4 / 5;
 }
@@ -187,8 +195,37 @@ margin-top: 30px;
 
 @media(min-width: 900px){
 .food-gif-home {
+	margin-top: 10px;
+    padding-top: 5%;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    clip: rect(0px,auto,230px,0px);
+    width: 100%;
+top: 186px;
+}
 
-    padding-top: 2%;
+.home-desc h4 {
+
+    font-family: 'Gotu', sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 110%;
+    position: relative;
+    top: 30%;
+    text-shadow: 2px 2px 4px #000000;
+}
+}
+
+
+@media(min-width: 1000px){
+
+
+.food-gif-home {
+
     z-index: -1;
     position: absolute;
     right: 0;
@@ -198,7 +235,7 @@ margin-top: 30px;
     top: 29%;
 }
 
-.home-desc {
+.home-desc h4 {
 
     font-family: 'Gotu', sans-serif;
     color: white;

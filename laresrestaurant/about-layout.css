@@ -6,23 +6,79 @@
 
 .about-container {
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr 1fr /* 1fr */; 
 	grid-gap: 1em 1em;
 }
 
-.about-image {
-	height: 100px;
+.lares-people {
+	width: 70%;
+	position: relative;
+	top: 8%;
+	left: 15%;
+	border-radius: 4px;
+	margin-top: 5%;
 }
 
-.about-info {
-	height: 100px;
+.about-info p {
+	font-family: 'Gotu', sans-serif;
+	color: #594236;
+	font-size: smaller;
+	position: relative;
+	left: auto;
+	right: auto;
+	margin-right: 10%;
+	margin-top: 3px;
+	margin-left: 10%;
 }
 
-.additional-info {
-	height: 100px;
+.additional-info h4 {
+	font-family: 'Gotu', sans-serif;
+	color:  #8B786D;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 110%;
+	position: relative;
+	top: 4px;
+	left: auto;
+	right: auto;
+	margin-top: 0px;
+	margin-bottom: 90px;
 }
 
 @media(min-width: 500px){
+
+.additional-info h4 {
+	font-family: 'Gotu', sans-serif;
+	color:  #8B786D;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 110%;
+	position: relative;
+	top: 0%;
+	left: auto;
+	right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.about-info p {
+	font-family: 'Gotu', sans-serif;
+	color: #594236;
+	font-size: smaller;
+	position: relative;
+	left: auto;
+	right: auto;
+	margin-right: 10%;
+	margin-top: 35px;
+	margin-left: 10%;
+}
+
+}
+
+@media(min-width: 768px){
+
 .about-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -44,4 +100,85 @@
 	grid-area: 2 / 1 / 3 / 5;
 	height: 100px;
 }
+
+.lares-people {
+	width: 70%;
+	position: relative;
+	top: 8%;
+	left: 15%;
+	border-radius: 4px;
+}
+
+.about-info p {
+	font-family: 'Gotu', sans-serif;
+	color: #594236;
+	font-size: smaller;
+	position: relative;
+	left: auto;
+	right: auto;
+	margin-right: 10%;
+	margin-top: 0px;
+}
+
+.additional-info h4 {
+	font-family: 'Gotu', sans-serif;
+	color:  #8B786D;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 110%;
+	position: relative;
+	top: 80%;
+	left: auto;
+	right: auto;
+	margin-top: 35px;
+	margin-bottom: 0px;
+}
+
+}
+
+@media(min-width: 900px){
+
+.about-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em 1em;
+}
+
+.lares-people {
+	width: 70%;
+	position: relative;
+	top: 8%;
+	left: 15%;
+	border-radius: 4px;
+}
+
+.about-info p {
+	font-family: 'Gotu', sans-serif;
+	color: #594236;
+	font-size: smaller;
+	position: relative;
+	left: auto;
+	right: auto;
+	margin-left: 0%;
+	margin-right: 10%;
+	margin-top: 35px;
+}
+
+.additional-info h4 {
+	font-family: 'Gotu', sans-serif;
+	color:  #8B786D;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 110%;
+	position: relative;
+	top: 80%;
+	left: auto;
+	right: auto;
+	margin-top: 95px;
+	margin-bottom: 0px;
+}
+
 }
