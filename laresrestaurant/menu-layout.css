@@ -13,9 +13,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding-top: 2%;
 }
 
-.menu-items {
+.main-menu {
 	grid-area: 2 / 2 / 5 / 4;
 	height: 100px;
 }
@@ -27,6 +28,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 0px;
+	padding-top: 2%;
 }
 
 .food-header2 {
@@ -39,9 +41,28 @@
 	color: #8B786D;
 }
 
-.food-item {
-padding-left: 6%;
+.tacos-header {
+	padding-top: 9%;
+}
 
+.food-font {
+	color: #594236;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+.food-item {
+	font-size: medium;
+}
+
+.food-desc {
+	font-style: italic;
+	padding-left: 0%;
+	font-weight: lighter;
+}
+
+.last-item {
+	padding-bottom: 25%;
 }
 
 @media(min-width: 500px){
@@ -51,4 +72,9 @@ padding-left: 6%;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
 	grid-gap: 1em 1em;
 }
+
+.last-item {
+	padding-bottom: 5%;
+}
+
 }
