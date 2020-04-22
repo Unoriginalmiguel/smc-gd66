@@ -326,3 +326,61 @@ top: 186px;
 	margin-top: 75px;
 }
 }
+
+@media(min-width: 1024px){
+
+
+.food-gif-home {
+
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    clip: rect(0px,auto,270px,0px);
+    width: 100%;
+    top: 29%;
+}
+
+.home-desc h4 {
+
+    font-family: 'Gotu', sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 110%;
+    position: relative;
+    top: 0%;
+    text-shadow: 2px 2px 4px #000000;
+	margin-top: 95px;
+}
+}
+
+@media(min-width: 1366px){
+
+
+.food-gif-home {
+
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    clip: rect(0px,auto,300px,0px);
+    width: 100%;
+    top: 29%;
+}
+
+.home-desc h4 {
+
+    font-family: 'Gotu', sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 110%;
+    position: relative;
+    top: 0%;
+    text-shadow: 2px 2px 4px #000000;
+	margin-top: 75px;
+}
+}
