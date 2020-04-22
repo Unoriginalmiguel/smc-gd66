@@ -50,7 +50,7 @@
 	font-weight: lighter;
     position: relative;
 margin-top: 20%;
-top: 135px;
+top: 135px;s
 }
 
 .right-side {
@@ -298,7 +298,7 @@ top: 186px;
 }
 
 
-@media(min-width: 1000px){
+@media(min-width: 1024px){
 
 
 .food-gif-home {
@@ -323,5 +323,6 @@ top: 186px;
     position: relative;
     top: 0%;
     text-shadow: 2px 2px 4px #000000;
+	margin-top: 75px;
 }
 }
