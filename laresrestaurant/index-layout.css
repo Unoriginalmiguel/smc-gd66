@@ -10,6 +10,10 @@
 	grid-gap: 1em 1em;
 }
 
+.top-content {
+	height: 50px;
+}
+
 .home-desc h4 {
 	font-family: 'Gotu', sans-serif;
 	color: white;
@@ -33,6 +37,11 @@
 	top: 0px;
 }
 
+.left-content {
+	height: 0px;
+}
+
+
 .left-content h3 {
 	text-align: center;
     font-family: 'Martel', serif;
@@ -41,6 +50,11 @@
 	font-weight: lighter;
     position: relative;
 margin-top: 20%;
+top: 135px;
+}
+
+.right-side {
+	height: 0px;
 }
 
 .button {
@@ -62,7 +76,7 @@ margin-top: 20%;
 	position: relative;
 	align-items: center;
 	left: 0%;
-	top: 0%;
+top: 280px;
 	border-radius: 4px;
 	width: 60%;
 	margin-left: 20%;
@@ -72,12 +86,23 @@ margin-top: 20%;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-div iframe.home-map{
+/* div iframe.home-map{
 height: 150%;
 	position: relative;
 	z-index: 1;
 	bottom: 100px;
 margin-top: 3%;
+} */
+
+.map-content {
+
+	height: 0px;
+}
+
+div iframe.mappy {
+	position: relative;
+    top: 360px;
+	padding-bottom: 110px;
 }
 
 @media(min-width: 500px){
@@ -147,7 +172,6 @@ height: 100px;
 	height: 100px;
 }
 
-
 .button {
 	background-color: #44c7f4;
 	border: none;
@@ -170,25 +194,78 @@ height: 100px;
 	margin-left: 20%;
 }
 
-div iframe.home-map{
-height: 220%;
-position: relative;
-z-index: 1;
-bottom: 0;
-margin-top: 30px;
-}
+/* div iframe.home-map{
+	height: 220%;
+	position: relative;
+	z-index: 1;
+	bottom: 0;
+	margin-top: 30px;
+} */
 
-div iframe.Gmap {
+/* div iframe.Gmap {
 	margin-left: auto;
 	margin-right: auto;
 	height: 360%;
-}
-
+} */
 
 .map-content {
 	grid-area: 3 / 1 / 4 / 5;
+	height: 0px;
 }
 
+}
+
+@media(min-width: 768px){
+
+.left-content h3 {
+	text-align: center;
+    font-family: 'Martel', serif;
+	text-transform: capitalize;
+	/* margin-bottom: 0px; */
+	/* margin-top: 0px; */
+	color: #594236;
+	font-weight: lighter;
+	left: 5%;
+	position: relative;
+	right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 254px;
+}
+
+
+.button {
+	background-color: #44c7f4;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: grid;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	font-family: 'Martel', serif;
+	text-transform: uppercase;
+	position: relative;
+	left: 0%;
+	border-radius: 4px;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 260px;
+	top: 0px;
+}
+
+div iframe.mappy {
+	position: relative;
+    top: 360px;
+}
+
+.map-content {
+	grid-area: 3 / 1 / 4 / 5;
+	height: 0px;
+}
 
 }
 
