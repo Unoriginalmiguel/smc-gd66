@@ -162,9 +162,9 @@ height: 100px;
 	font-weight: lighter;
 	left: 5%;
 	position: relative;
-	top: 40%;
 	right: auto;
 	margin-top: 4%;
+	top: 260px;
 }
 
 .right-side {
@@ -188,7 +188,7 @@ height: 100px;
 	text-transform: uppercase;
 	position: relative;
 	left: 0%;
-	top: 90%;
+top: 270px;
 	border-radius: 4px;
 	width: 60%;
 	margin-left: 20%;
