@@ -11,10 +11,10 @@
 }
 
 .lares-people {
-	width: 70%;
+	width: 90%;
 	position: relative;
-	top: 8%;
-	left: 15%;
+	top: 14%;
+	left: 5%;
 	border-radius: 4px;
 	margin-top: 5%;
 }
@@ -26,7 +26,7 @@
 	left: auto;
 	right: auto;
 	margin-right: 10%;
-	margin-top: 3px;
+	margin-top: 0px;
 	margin-left: 10%;
 }
 
@@ -47,6 +47,14 @@
 
 @media(min-width: 500px){
 
+.lares-people {
+	width: 70%;
+	position: relative;
+	top: 8%;
+	left: 15%;
+	border-radius: 4px;
+}
+
 .additional-info h4 {
 	font-family: 'Gotu', sans-serif;
 	color:  #8B786D;
@@ -55,7 +63,7 @@
 	text-transform: uppercase;
 	font-size: 110%;
 	position: relative;
-	top: 0%;
+	top: 10px;
 	left: auto;
 	right: auto;
 	margin-top: 0px;
@@ -128,7 +136,7 @@
 	top: 80%;
 	left: auto;
 	right: auto;
-	margin-top: 35px;
+	margin-top: 95px;
 	margin-bottom: 0px;
 }
 
@@ -176,5 +184,22 @@
 	margin-top: 95px;
 	margin-bottom: 0px;
 }
+}
 
+@media(min-width: 1024px){
+
+.additional-info h4 {
+	font-family: 'Gotu', sans-serif;
+	color:  #8B786D;
+	font-weight: lighter;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 110%;
+	position: relative;
+	left: auto;
+	right: auto;
+	margin-top: 130px;
+	margin-bottom: 0px;
+	top: 140px;
+}
 }
