@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God of War</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+            text-transform: uppercase;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 8px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: uppercase;
+        }
+
+        .button2 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        .button2:hover {
+            background-color: rgb(255, 196, 0);
+            color: rgb(0, 0, 0);
+            box-shadow: 0 12px 16px 0 rgba(214, 214, 214, 0.24), 0 17px 50px 0 rgba(238, 238, 238, 0.19);
+            border: 2px solid rgb(255, 255, 255, .0);
+        }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        .btn-0 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid rgb(0, 0, 0);
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 8px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: uppercase;
+        }
+
+        .btn-0:hover {
+            background-color: rgb(255, 196, 0);
+            color: rgb(0, 0, 0);
+            box-shadow: 0 12px 16px 0 rgba(214, 214, 214, 0.24), 0 17px 50px 0 rgba(238, 238, 238, 0.19);
+            border: 2px solid rgb(255, 255, 255, .0);
+        }
+        
+         .w-cat {
+        width: 50%;
+        opacity: 100%;
+        }
+
+        .k-cat {
+        width: 50%;
+        opacity: 100%;
+        }
+
+        .CatP {
+        width: 50%;
+        display: inline;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1 id="header1">Click The Buttons</h1>
+
+    <section>
+        <button type="button" class="button button2" id="button2D" onclick="myFunction()">Toggle Dark Mode</button>
+
+        <button class="btn-0" id="Btn-0" onclick="myFunction2()">Toggle Cat Mode</button>
+
+        <img class="w-cat CatP" src="cat-play.gif" alt="Pixel Cute Cat Playing">
+        <img class="k-cat CatP" src="kiss-cat.gif" alt="Pixel Cute Cat Playing">
+
+    </section>
+
+    <script>
+        var myHeader = document.getElementById("header1");
+        var Dbutton2 = document.getElementById("button2D");
+    
+        function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            
+            }
+
+
+            
+
+    </script>
+</body>
+</html>
+
+
+        <!-- function myFunction() {
+        document.body.style.backgroundColor = "black";
+        myHeader.style.color = "white";
+        
+        var x = document.getElementById("body");
+        if (x.innerHTML === "Hello") {
+        x.innerHTML = "Swapped text!";
+        } else {
+        x.innerHTML = "Hello";
+        } -->
