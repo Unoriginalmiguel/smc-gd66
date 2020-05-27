@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    max-width: 25%;
+    margin: 10px;
+}
+
+.toggle-button {
+    padding-top: 10px;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-family: 'Gilda Display',
+serif;
+text-transform: uppercase;
+    width: 40px;
+    float: right;
+    color: rgb(80, 80, 80);
+
+}
+
+#toggleAssist,
+ul.nav-links {
+    display: none;
+}
+
+#toggleAssist:checked+ul.nav-links {
+    display: block;
+}
+
+
+ul.nav-links {
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    font-family: 'Gilda Display',
+    serif;
+    text-align: center;
+        color: rgb(53, 53, 53);
+}
+
+.nav-links li {
+    padding: 20px 0px;
+    border-bottom: 2px solid rgb(254, 196, 73);
+}
+
+
+.nav-links a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+
+.nav-links li:hover {
+    transition: 0.6s ease;
+    border-radius: 8%;
+    font-weight: 100;
+}
+
+@media (min-width: 768px) {
+    .toggle-button {
+        display: none;
+    }
+
+    ul.nav-links {
+        display: block;
+        float: right;
+    }
+
+    .nav-links li {
+        display: inline-block;
+        padding: 10px;
+        border-bottom: none;
+    }
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="main.css" />
+    <title>God of Fun</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/gow-logo.png" class="logo" alt="God of War Logo">
+            <label for="toggleAssist">
+                <div class="toggle-button" alt="hamburger menu toggle button">Menu</div>
+            </label>
+            <input type="checkbox" id="toggleAssist">
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container timeline-gow">
+            <div class="grid-1"><img src="images/gow-1.png" alt="Kratos" id="GOW1" class="all-gow gow-one"></div>
+            <div class="grid-2"> <img src="images/gow-2.png" alt="Atreus" id="GOW2" class="all-gow gow-two"></div>
+            <div class="grid-3"> <img src="images/gow-3.png" alt="Stranger" id="GOW3" class="all-gow gow-three"></div>
+            <div class="grid-4"> <img src="images/gow-4.png" alt="Boy!" id="GOW4" class="all-gow gow-four"></div>
+
+            <div class="lower-grid" id="BTNS">
+
+                <div class="story-1">
+                    <h1 class="header-s1" id="">Toggle Scene</h1> </br>
+                        <div class="button-s1">
+                    <button class="btn-group" id="toggleKratos">Kratos</button>
+                    <button class="btn-group" id="toggleAtreus">Atreus</button>
+                    <button class="btn-group" id="toggleStranger">Stranger</button>
+                    <button class="btn-group" id="toggleQuote">Famous Quote</button>
+                        </div>
+                </div>
+
+                <div class="story-2"> 
+                    <h1 class="header-s2" id="">Position Scene</h1></br>
+                        <div class="button-s2">
+                    <button class="btn-group" id="MoveK">Move Kratos</button>
+                    <button class="btn-group" id="MoveA">Ready Atreus</button>
+                    <button class="btn-group" id="MoveSD">Stranger Danger</button>
+                    <button class="btn-group" id="MoveSQ">Shout Quote</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
