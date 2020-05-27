@@ -25,30 +25,30 @@ $("#toggleQuote").click(function () {
 
 $("#MoveK").click(function () {
     $('.gow-one').animate({
-        left: "240px",
-        top: "60px",
-});
+        left: "+=160%",
+        top: "+=60%",
+    });
 });
 
 $("#MoveA").click(function () {
     $('.gow-two').animate({
-        left: "-170px",
-        top: "-60px",
+        left: "+=-70%",
+        top: "+=-80%",
     });
 });
 
 $("#MoveSD").click(function () {
     $('.gow-three').animate({
-        left: "10px",
-        top: "40px",
+        left: "+=10%",
+        top: "+=40%",
     });
 });
 
 $("#MoveSQ").click(function () {
     $('.gow-four').animate({
-        left: "-370px",
-        top: "-40px",
-        width: "100%",
+        left: "+=-240%",
+        top: '+=-40%',
+        width: "80%",
     });
 });
 

@@ -109,6 +109,13 @@ sans-serif;
 
 @media (min-width: 1000px) {
 
+.all-gow {
+    width: 60%;
+    justify-items: center;
+    position: relative;
+    display: grid;
+}
+
 .story-1 {
     width: 80%;
     padding-top: 5%;
