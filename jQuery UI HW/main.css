@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#accordion {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+#accordion h3 {
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: 'Merriweather',
+    serif;
+}
+
+.ui-menu .ui-menu-item {
+    margin: 0;
+    cursor: pointer;
+    list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+    text-align: left;
+}
+
+.ui-widget {
+    text-align: center;
+    font-family: 'Merriweather',
+    serif;
+    margin-top: 40px;
+}
+
+label.widget-songs {
+    font-weight: bold;
+}
+
+#tags {
+    font-size: 1em;
+    text-align: left;
+}
+
+.ui-widget-content {
+    border: 0px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: solid;
+    border-top-width: 0px;
+    background: #ffffff;
+    color: #000;
+    font-family: 'PT Sans',
+    sans-serif;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    border: 1px solid #ffffff;
+    background: #fff;
+    color: #000;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    background: #000;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+}
+
