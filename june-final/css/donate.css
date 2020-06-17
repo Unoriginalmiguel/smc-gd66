@@ -1,0 +1,521 @@
+.d-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em 1em;
+    left: auto;
+    right: auto;
+    position: absolute;
+    height: 1008px;
+    width: 100%;
+}
+/* end .d-container */
+
+.d-left-top {
+    grid-area: 1 / 1 / 2 / 2;
+        width: 100%;
+        height: 100%;
+}
+
+.d-left-top h1 {
+font-family: 'Montserrat',
+sans-serif;
+font-size: 250%;
+padding: 10%;
+background: -webkit-linear-gradient(rgb(247, 25, 255), rgb(138, 13, 255));
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: relative;
+top: 20%;
+margin-bottom: 0;
+}
+/* !end left */
+
+.d-right-top {
+    grid-area: 1 / 2 / 2 / 4;
+        width: 100%;
+        height: 100%;
+}
+
+fieldset {
+border: none;
+}
+
+fieldset h2 {
+font-family: 'Montserrat',
+sans-serif;
+font-size: 250%;
+padding: 4%;
+padding-top: 4%;
+padding-top: 0px;
+background: -webkit-linear-gradient(rgb(94, 25, 255), rgb(13, 98, 255));
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0;
+margin-right: 0px;
+position: relative;
+text-align: center;
+}
+
+.amount-b {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Lato',
+    sans-serif;
+    text-transform: capitalize;
+    border: 2px solid #88F79E;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+
+}
+
+.button1:hover {
+    background-color: #88F79E;
+    color: black;
+    font-family: 'Lato',
+    sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.highlight {
+    background-color: #88F79E;
+    color: black;
+    font-family: 'Lato',
+        sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+label {
+font-family: 'Lato',
+sans-serif;
+font-size: 98%;
+font-weight: bold;
+margin-left: 10%;
+}
+
+input[type=text],
+select {
+width: 60%;
+padding: 12px 20px;
+margin: 8px 0;
+margin-left: 0px;
+display: inline-block;
+box-sizing: border-box;
+font-family: 'Lato',
+sans-serif;
+border: 2px solid #89F79E;
+margin-left: 5%;
+    margin-top: 5%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.button-submit {
+    background-color: #89F79E;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+        font-family: 'Lato',
+        sans-serif;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: black;
+        padding: 20px;
+        height: auto;
+        width: 90%;
+        left: 2%;
+            position: relative;
+            top: 20px;
+}
+
+.button-submit:hover {
+background: -webkit-linear-gradient(rgb(94, 25, 255), rgb(13, 98, 255));
+    color: white;
+}
+
+.row-d {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 55%;
+}
+
+.column-d {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+}
+
+.column-d img {
+    vertical-align: middle;
+    width: 60%;
+    margin: 10%;
+    position: relative;
+    top: 20%;
+}
+
+#toggle_tst {
+    display: none;
+}
+
+/* !end right */
+
+/* .d-wide-bottom {
+    grid-area: 2 / 1 / 3 / 4;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(59, 185, 0);
+} */
+/* !end wide */
+
+@media (max-width: 480px) {
+
+.d-container {
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-gap: 1em 1em;
+    left: auto;
+    right: auto;
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+}
+
+/* end .d-container */
+
+.d-left-top {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+height: 25%;
+
+}
+
+.d-left-top h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    padding: 10%;
+    background: -webkit-linear-gradient(rgb(247, 25, 255), rgb(138, 13, 255));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 10%;
+    margin-bottom: 0;
+}
+
+/* !end left */
+
+.d-right-top {
+    grid-area: 1 / 2 / 2 / 4;
+    width: 100%;
+    height: 90%;
+}
+
+#DonateForm {
+    margin-bottom: 35%;
+}
+
+form {
+    margin-top: 55%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Lato',
+        sans-serif;
+    border: 2px solid #89F79E;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+fieldset h2 {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 250%;
+    padding: 4%;
+    padding-top: 4%;
+    padding-top: 0px;
+    background: -webkit-linear-gradient(rgb(94, 25, 255), rgb(13, 98, 255));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-right: 0px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+
+.button-submit {
+    background-color: #89F79E;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+    padding: 20px;
+    height: auto;
+    width: 90%;
+    left: 2%;
+    position: relative;
+    top: 30px;
+}
+
+.donate-items h1 {
+font-family: 'Montserrat',
+sans-serif;
+font-size: 250%;
+background: -webkit-linear-gradient(rgb(138, 13, 255), rgb(247, 25, 255));
+background-clip: border-box;
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0;
+margin-right: 0px;
+margin-right: 0px;
+position: relative;
+text-align: center;
+padding-top: 7%;
+}
+
+.column-d img {
+    vertical-align: middle;
+    width: 50%;
+    margin: 10%;
+    position: relative;
+    top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-d {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: auto;
+    margin-right: auto;
+padding-top: 30%;
+
+}
+
+/* !end right */
+
+/* .d-wide-bottom {
+    grid-area: 2 / 1 / 3 / 4;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(59, 185, 0);
+} */
+/* !end wide */
+
+}
+
+@media (min-width: 768px) {
+.d-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em 1em;
+    left: auto;
+    right: auto;
+    position: absolute;
+    height: 1008px;
+    width: 100%;
+}
+
+/* end .d-container */
+
+.d-left-top {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    height: 100%;
+}
+
+.d-left-top h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 190%;
+    padding: 10%;
+    background: -webkit-linear-gradient(rgb(247, 25, 255), rgb(138, 13, 255));
+    background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 20%;
+    margin-bottom: 0;
+}
+
+/* !end left */
+
+.d-right-top {
+    grid-area: 1 / 2 / 2 / 4;
+    width: 100%;
+    height: 100%;
+}
+
+.column-d img {
+    vertical-align: middle;
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 10%;
+    position: relative;
+    top: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate-items h1 {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 250%;
+    background: -webkit-linear-gradient(rgb(138, 13, 255), rgb(247, 25, 255));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-right: 0px;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+        top: 110px;
+}
+
+.row-d {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+/* !end right */
+
+/* .d-wide-bottom {
+    grid-area: 2 / 1 / 3 / 4;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(59, 185, 0);
+} */
+/* !end wide */
+}
+
+@media (min-width: 960px) {
+.d-left-top h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 230%;
+    padding: 10%;
+    background: -webkit-linear-gradient(rgb(247, 25, 255), rgb(138, 13, 255));
+    background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 20px;
+    margin-bottom: 0;
+}
+
+form {
+    width: 70%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-d img {
+    vertical-align: middle;
+    width: 30%;
+    margin: 10%;
+    position: relative;
+    top: 10%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+}
+
+@media (min-width: 1024px) {
+.donate-items h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    background: -webkit-linear-gradient(rgb(138, 13, 255), rgb(247, 25, 255));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-right: 0px;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    top: 20px;
+}
+
+.column-d img {
+    vertical-align: middle;
+    width: 30%;
+    margin: 10%;
+    position: relative;
+    top: 0%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+}
+}
