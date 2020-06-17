@@ -750,7 +750,8 @@ background: -webkit-linear-gradient(rgb(94, 25, 255), rgb(13, 98, 255));
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 24px;
+    top: 0;
 }
 
 .column {
@@ -891,4 +892,25 @@ margin-top: 0;
 /* !end left */
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+
+.left-top h1 {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 250%;
+    padding: 10%;
+    background: -webkit-linear-gradient(rgb(2, 69, 255), rgb(9, 13, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 30%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 24px;
+    top: 0;
+}
+
+}

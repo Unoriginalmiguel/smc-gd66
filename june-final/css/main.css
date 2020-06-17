@@ -8,6 +8,11 @@
 
 body {
     margin: 0px;
+    transition-duration: 0.4s;
+}
+
+main {
+transition-duration: 0.4s;
 }
 
 /* @media (max-width: 599px){ }
